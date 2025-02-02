@@ -9,19 +9,19 @@
   flex-wrap: wrap;
 }
 
-header {
+.header {
   background-color: #333;
   color: #fff;
   padding: 1rem;
   text-align: center;
 }
 
-header h1 {
+.header h1 {
   margin: 0;
   font-size: 2rem;
 }
 
-nav ul {
+.nav ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -29,24 +29,24 @@ nav ul {
   gap: 1rem;
 }
 
-nav a {
+.nav a {
   color: #fff;
   text-decoration: none;
 }
 
-nav a:hover {
+.nav a:hover {
   text-decoration: underline;
 }
 
-main {
+.main {
   padding: 2rem;
 }
 
-section {
+.section {
   margin-bottom: 2rem;
 }
 
-footer {
+.footer {
   background-color: #333;
   color: #fff;
   text-align: center;
