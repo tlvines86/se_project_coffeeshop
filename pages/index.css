@@ -16,12 +16,12 @@
   text-align: center;
 }
 
-.header {
+.header__h1 {
   margin: 0;
   font-size: 2rem;
 }
 
-.nav ul {
+.nav {
   list-style: none;
   padding: 0;
   display: flex;
@@ -29,16 +29,16 @@
   gap: 1rem;
 }
 
-.nav a {
+.nav__a {
   color: #fff;
   text-decoration: none;
 }
 
-.nav a:hover {
+.nav__a:hover {
   text-decoration: underline;
 }
 
-.main {
+.content {
   padding: 2rem;
 }
 
