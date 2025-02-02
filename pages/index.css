@@ -1,12 +1,11 @@
 /* General styles */
 .page {
   font-family: "Inter", sans-serif;
-  margin: auto;
-  background-color: #f5f5f5;
-  color: #333;
+  margin: 1600px;
   min-width: 1100px;
   max-width: 1600px;
-  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header {
