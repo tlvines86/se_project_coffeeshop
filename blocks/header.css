@@ -5,6 +5,8 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -37,8 +39,9 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  width: 656px;
+  width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
